@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"> </script>
+<head><link rel="stylesheet" href="js.59.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+
+        <div class="conteiner"  >
+        
+        
+        <img src="https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg" alt="">
+        
+        <h1>{{uberschrift}}</h1>
+        <input :type="texttyp" :placeholder="placeholder" v-model="input">
+        
+        <p>Sie haben noch kein konto?     <a href=""> jetz registieren!</a>  </p>
+        <div id="btn">
+
+            <button @click="zuruckk" style=" opacity: 0;" id="zrk">{{zuruck}}</button>
+            <button  @click="weiterr" >{{weiter}}</button>
+
+        </div>
+        
+        
+</body>
+<script src="js.59.js"></script>
+</html>
